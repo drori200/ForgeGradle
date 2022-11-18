@@ -65,11 +65,7 @@ dependencies {
     compile gradleApi()
 
     // moved to the beginning to be the overrider
-    compile 'org.ow2.asm:asm:9.4'
-    compile 'org.ow2.asm:asm-tree:9.4'
-    compile 'org.ow2.asm:asm-xml:6.2.1'
-    compile 'org.ow2.asm:asm-util:9.4'
-    compile 'org.ow2.asm:asm-commons:9.4'
+    compile 'org.ow2.asm:asm-debug-all:5.0.4'
 
     compile 'com.google.guava:guava:18.0'
 
