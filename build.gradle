@@ -21,6 +21,9 @@ repositories {
     mavenLocal()
     mavenCentral()
     maven {
+        "https://jitpack.io"
+    }
+    maven {
         name 'forge'
         url 'https://maven.minecraftforge.net/'
     }
