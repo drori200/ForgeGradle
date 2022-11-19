@@ -79,7 +79,7 @@ dependencies {
     compile 'com.github.tony19:named-regexp:0.2.3' // 1.7 Named regexp features
 
     //Custom version of SpecialSource which uses ASM 9
-    compile 'net.md-5:SpecialSource:1.11.1' // deobf and reobs
+    compile 'net.md-5:SpecialSource:1.11.0' // deobf and reobs
 
     // because curse
     compile 'org.apache.httpcomponents:httpclient:4.3.3'
