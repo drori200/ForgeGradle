@@ -20,9 +20,7 @@ sourceCompatibility = '1.8'
 repositories {
     mavenLocal()
     mavenCentral()
-    maven {
-        "https://jitpack.io"
-    }
+    maven { url 'https://jitpack.io' }
     maven {
         name 'forge'
         url 'https://maven.minecraftforge.net/'
