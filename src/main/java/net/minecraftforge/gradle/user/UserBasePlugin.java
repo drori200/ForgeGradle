@@ -75,7 +75,7 @@ public abstract class UserBasePlugin<T extends UserExtension> extends BasePlugin
         // create lifecycle tasks.
 
         Task task = makeTask("setupCIWorkspace", DefaultTask.class);
-        task.dependsOn("genSrgs", "deobfBinJar");
+        task.dependsOn("genSrgs", "deobfBinJar", "repackMinecraft");
         task.setDescription("Sets up the bare minimum to build a minecraft mod. Idea for CI servers");
         task.setGroup("ForgeGradle");
         //configureCISetup(task);
